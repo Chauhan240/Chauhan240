@@ -3,8 +3,8 @@ import pandas as pd
 import json
 
 # Load data
-json_file_path = r"C:\Users\intre\Documents\Python Practice\Hiring Alert\hyperlinks_data.json"
-file_path = r"C:\Users\intre\Documents\Python Practice\Hiring Alert\Consulting Latest Jobs-Deloitte.xlsx"
+json_file_path = r"hyperlinks_data.json"
+file_path = r"Consulting Latest Jobs-Deloitte.xlsx"
 
 # Load Excel file
 xl = pd.ExcelFile(file_path)
